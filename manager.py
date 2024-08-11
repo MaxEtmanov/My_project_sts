@@ -11,20 +11,6 @@ def score_time(model):
     end = time.time()
     return end - start
 
-#model_tiny= score_time("tiny")
-#print(model_tiny)
-
-#model_tiny= score_time("base")
-#print(model_tiny)
-
-#model_tiny= score_time("small")
-#print(model_tiny)
-
-#model_tiny= score_time("medium")
-#print(model_tiny)#
-
-#model_tiny= score_time("large")
-#print(model_tiny)
 
 models = ["tiny", "base", "small", "medium", "large"]
 
